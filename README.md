@@ -1,14 +1,14 @@
 # Weighted Graph
 
-This reposetory include 3 JAVA classes,3 interfaces and 2 JUint tests that represents: \
-1)NodeInfo- inside class implements node_info- view of a vertex,its neighbors list and weights, contain the following methods:
+This reposetory include 3 JAVA classes,3 interfaces and 2 JUint tests that represents:  
+1. NodeInfo- inside class implements node_info- view of a vertex,its neighbors list and weights, contain the following methods:
    * double getweight(int key)
    * setweight(int key,double weight)
    * addNi(node_info n, double weight)
    * getters and setters
    
    
-2)WGraph_DS-  implements graph- an undirectional unweighted graph, contain the following methods:
+2. WGraph_DS-  implements graph- an undirectional unweighted graph, contain the following methods:
    * node_info getNode(int key) 
    * boolean hasEdge(int node1, int node2)
    * double getEdge(int node1, int node2)
@@ -19,7 +19,7 @@ This reposetory include 3 JAVA classes,3 interfaces and 2 JUint tests that repre
    * getters and setters
    
    
-3)WGraph_Algo- implements graph_algorithms - represents the "regular" Graph Theory algorithms, contain the following methods:
+3. WGraph_Algo- implements graph_algorithms - represents the "regular" Graph Theory algorithms, contain the following methods:
     * init(weighted_graph g)
     * copy()
     * boolean isConnected()
@@ -50,6 +50,6 @@ Exemples: \
   
   this graph in not connected \
   the faster way to get from "Bat Yam" to "Bet El" is through "Tel Aviv" and "Jerusalem" with total distance of 35 \
-  "Kiriyat Shmona" is not accessible from every other city \
+  "Kiriyat Shmona" is not accessible from every other city
 
     
